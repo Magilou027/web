@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genshin Impact | Profile</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+        rel="stylesheet">
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+
+    <!-- Navbar start -->
+    <nav class="navbar">
+        <img src="img/logo.png" class="navbar-logo"></img>
+        <div class="navbar-nav">
+            <a href="#home">Home</a>
+            <a href="#about">Informasi Versi</a>
+            <a href="#area">Konten Baru</a>
+            <a href="#fitur">Fitur Game</a>
+            <a href="about-me.html">About Me</a>
+        </div>
+
+
+        <div class="navbar-extra">
+            <a href="https://genshin-impact-map.appsample.com/" id="map"><i data-feather="map"></i></a>
+            <a href="#" id="menu"><i data-feather="menu"></i></a>
+        </div>
+    </nav>
+
+    <!-- Navbar end -->
+
+    <!-- Hero Section start -->
+    <section class="hero" id="home">
+        <main class="content">
+            <h1>Lets Play <span>Genshin Impact</span></h1>
+            <p>Hu Tao is the 77th Director of the Wangsheng Funeral Parlor, a person vital to managing Liyue's funerary
+                affairs.
+                She does her utmost to flawlessly carry out a person's last rites and preserve the world's balance of
+                yin and yang.
+                Aside from this, she is also a talented poet whose many "masterpieces" have passed around Liyue's
+                populace by word of mouth.
+
+            </p>
+            <a href="https://genshin.hoyoverse.com/pc-launcher/" alt="Install" class="cta"> Install Now</a>
+        </main>
+    </section>
+    <!-- Hero Section end -->
+
+    <!-- About Section start -->
+    <section id="about" class="about">
+        <h2><span>Informasi</span> Versi</h2>
+
+        <div class="row">
+            <div class="about-img">
+                <img src="img/versi.png" alt="Informasi Versi">
+            </div>
+            <div class="content">
+                <h3>Genshin Version 3.6 Update Notes</h3>
+                <p>Genshin Impact Version 3.6 is the most recent Genshin Impact update to arrive in the game. Version
+                    3.6 introduces two new characters, plus new events, quests, and a brand new region. Following
+                    Version 3.6's release on April 12, 2022</p>
+            </div>
+        </div>
+    </section>
+    <!-- About Section end -->
+
+    <!-- Area Section start -->
+    <section id="area" class="area">
+        <h2><span>Konten</span> Baru</h2>
+        <div class="column">
+            <div class="about-img">
+                <img src="img/area-baru.png" alt="Area Baru" class="responsive" style="
+            width: 100%;
+            height: 100%;">
+
+                <img src="img/new-arte.png" alt="Weapon dan Artefak" class="responsive" style="
+                width: 100%;
+                height: 100%;">>
+
+            </div>
+    </section>
+    <!-- Area Section end -->
+
+
+    <!-- Fitur Section start -->
+    <section id="fitur" class="fitur">
+        <h2><span>Fitur</span> Game</h2>
+
+        <div class="container">
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="img/eula.png"></div>
+                    <div class="swiper-slide"><img src="img/miko.png"></div>
+                    <div class="swiper-slide"><img src="img/zongli.png"></div>
+                    <div class="swiper-slide"><img src="img/event.png"></div>
+
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+        <script>
+            const swiper = new Swiper('.swiper', {
+                autoplay: {
+                    delay: 3000,
+                    disableOnInteraction: false,
+                },
+                loop: true,
+
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
+            });
+        </script>
+    </section>
+    <!-- Fitur Section end -->
+
+    <!-- Feather Icons -->
+    <script>
+        feather.replace()
+    </script>
+
+    <!-- My Javascript -->
+    <script src="js/script.js"></script>
+
+    <!-- Footer start-->
+    <footer>
+        <div class="footer-content">
+            <h3>Magilou027</h3>
+            <p>Junior Web Developer, Newbie</p>
+            <ul class="socials">
+                <li><a href="https://web.facebook.com/agussalam.nur"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://github.com/Magilou027"><i class="fa fa-github"></i></a></li>
+                <li><a href="https://www.reddit.com/"><i class="fa fa-reddit-square"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/rh%D1%91in-undefined-060a6b271/"><i
+                            class="fa fa-linkedin-square"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy;2023 Magilou027. Designed by <span>Magilou</span></p>
+        </div>
+    </footer>
+    <!-- Footer end -->
+</body>
+
+</html>
