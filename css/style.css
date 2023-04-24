@@ -15,7 +15,7 @@
 
 body {
   font-family: "poppins", sans-serif;
-  background-image: url("../img/bg2.png");
+  background-image: url("../img/bg2.webp");
   background-repeat: no-repeat;
   background-position: center;
   color: #fff;
@@ -89,7 +89,7 @@ body {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background-image: url("../img/hutao.png");
+  background-image: url("../img/hutao.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -362,7 +362,7 @@ footer {
   bottom: 20;
   left: 0;
   right: 0;
-  background-image: url("../img/bg2.png");
+  background-image: url("../img/bg2.webp");
   background-position: center;
   height: auto;
   width: 100vw;
